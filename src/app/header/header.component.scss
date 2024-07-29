@@ -1,0 +1,28 @@
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  color: #556B2F;
+  background-color: #ffffff;
+  &__inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  &__logo {
+    font-size: 25px;
+    font-weight: 700;
+}
+&__list {
+    display: flex;
+}
+&__item {
+    font-size: 20px;
+    font-weight: 500;
+    &:not(:last-child) {
+        margin-right: 20px;
+    }
+}
+}
